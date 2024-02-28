@@ -14,10 +14,17 @@ body{
     position: sticky;
 }
 
+.top-menu {
+    display: flex;
+}
+
+.models{
+    display: flex;
+}
+
 .top-menu ul{
     display: flex;
     gap: 8px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -28,7 +35,7 @@ body{
 
 .top-menu ul>li a {
     text-decoration: none;
-    counter-reset: #ccc;
     font-size: 25px;
     color: white;
 }
+
