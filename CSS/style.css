@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Times New Roman, Franklin Gothic Medium;
+    scroll-behavior: smooth;
 }
 
 /*Menu*/
@@ -13,10 +14,15 @@
 .top-menu {
     display: flex;
     justify-content: space-between;
+    background: transparent;
 }
 
 .models {
     display: flex;
+}
+
+.menu {
+    background: transparent;
 }
 
 .top-menu ul {
@@ -27,7 +33,6 @@
 
 .top-menu ul>li {
     list-style-type: none;
-
 }
 
 .top-menu ul>li a {
@@ -41,6 +46,6 @@
 
 /*Background*/
 .videoback {
-    width: 100vw;
-    height: 100vh;
+    top: 0;
+    width: 90vw;
 }
