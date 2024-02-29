@@ -6,6 +6,8 @@
     scroll-behavior: smooth;
 }
 
+/*body {}
+
 /*Menu*/
 .header {
     position: static;
@@ -14,15 +16,10 @@
 .top-menu {
     display: flex;
     justify-content: space-between;
-    background: transparent;
 }
 
 .models {
     display: flex;
-}
-
-.menu {
-    background: transparent;
 }
 
 .top-menu ul {
@@ -45,7 +42,8 @@
 /*---------------------------------------------------------------------------------------*/
 
 /*Background*/
+
 .videoback {
     top: 0;
-    width: 90vw;
+    position: absolute;
 }
