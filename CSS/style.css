@@ -5,6 +5,8 @@
     font-family: Arial, Times New Roman, Franklin Gothic Medium;
 }
 
+/*body {}
+
 /*Menu*/
 .header {
     position: static;
@@ -13,15 +15,10 @@
 .top-menu {
     display: flex;
     justify-content: space-between;
-    background: transparent;
 }
 
 .models {
     display: flex;
-}
-
-.menu {
-    background: transparent;
 }
 
 .top-menu ul {
@@ -45,11 +42,9 @@
 
 /*Background*/
 
-
 .big {
     overflow: hidden;
 }
 
 .text-h1-container {
-    left: 48px;
-}
+    left: 48px;}
